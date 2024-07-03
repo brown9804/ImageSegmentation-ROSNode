@@ -63,3 +63,11 @@ And where you want to run your code, source your usb_cam code run:
 ```
 $ rosrun usb_cam usb_cam_node
 ```
+
+## Problem statement 
+
+Design, programming in the C programming language and testing a project in `CodeBlocks` called `image_segmentation_project` that performs:
+
+1.1. Read a color image in “.bmp” format from the hard disk.
+1.2. Calculate the intensity image of the color image obtained in point a) and store the resulting intensity image on the hard disk under the name "IntensityImage.bmp", in ".bmp" format.
+1.3.  Threshold the intensity image obtained in point b) and store the resulting segmented image on the hard disk under the name “segmented image.bmp”, in “.bmp” format. The threshold should be calculated automatically by applying the Kittler algorithm to the intensity image. The optimal threshold, weights, means, and variances should be displayed on the terminal and saved in a text file called “optimalResultsSegunKittler.txt”. For the tests use the image "table1_00.bmp", which can be downloaded from Virtual Mediation, for which the Kittler algorithm gives the following optimal values:
