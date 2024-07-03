@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1508878787 source:/home/est/Desktop/Examen_Programado_II_B61254/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
+1559285593 source:/home/est/Desktop/Vision por computador/Examen_Programado_II_B61254/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
