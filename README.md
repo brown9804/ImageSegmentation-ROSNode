@@ -1,15 +1,20 @@
 # ROS Node Image Segmentation Project
 
-Costa Rica
-
-Belinda Brown, belindabrownr04@gmail.com
+University of Costa Rica 
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-----------
+Last updated: 2020-04-14
 
-This project aims to develop a ROS (Robot Operating System) node that performs image segmentation on input images obtained from a camera sensor. Image segmentation is a computer vision technique that partitions an image into multiple segments or regions to simplify its representation and make it easier to analyze. The project will involve developing algorithms for segmenting images into meaningful regions based on color, intensity, texture, or other visual attributes.
+------------------------------------------
+
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
+> his project aims to develop a ROS (Robot Operating System) node that performs image segmentation on input images obtained from a camera sensor. Image segmentation is a computer vision technique that partitions an image into multiple segments or regions to simplify its representation and make it easier to analyze. The project will involve developing algorithms for segmenting images into meaningful regions based on color, intensity, texture, or other visual attributes.
 
 <img width="700" src="https://intorobotics.com/wp-content/uploads/2023/09/template-for-a-ros-subscriber-in-python.jpg" alt="rosImg"/> 
 
