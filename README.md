@@ -9,16 +9,19 @@ Last updated: 2020-04-14
 
 ------------------------------------------
 
+> This project aims to develop a ROS (Robot Operating System) node that performs image segmentation on input images obtained from a camera sensor. Image segmentation is a computer vision technique that partitions an image into multiple segments or regions to simplify its representation and make it easier to analyze. The project will involve developing algorithms for segmenting images into meaningful regions based on color, intensity, texture, or other visual attributes.
+
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://github.com/user-attachments/assets/9947e907-db45-4b4a-bda2-464fda16fd76" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
 
-> his project aims to develop a ROS (Robot Operating System) node that performs image segmentation on input images obtained from a camera sensor. Image segmentation is a computer vision technique that partitions an image into multiple segments or regions to simplify its representation and make it easier to analyze. The project will involve developing algorithms for segmenting images into meaningful regions based on color, intensity, texture, or other visual attributes.
 
-<img width="700" src="https://intorobotics.com/wp-content/uploads/2023/09/template-for-a-ros-subscriber-in-python.jpg" alt="rosImg"/> 
+<details>
+<summary><b>List of References </b> (Click to expand)</summary>
 
-[reference](https://intorobotics.com/template-for-a-ros-subscriber-in-python/)
+- [Writing a simple publisher and subscriber (Python)](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
+
+</details>
 
 ## Key Components
 1. ROS Node Development: The project will involve creating a ROS node that subscribes to image messages from a camera sensor and processes them using image segmentation algorithms.
@@ -29,7 +32,7 @@ Last updated: 2020-04-14
 
 ## Benefits
 
-Overall, the ROS Node Image Segmentation Project aims to leverage the capabilities of ROS and computer vision techniques to enhance the perception and decision-making abilities of robots through efficient image segmentation processes.
+> Overall, the ROS Node Image Segmentation Project aims to leverage the capabilities of ROS and computer vision techniques to enhance the perception and decision-making abilities of robots through efficient image segmentation processes.
 
 - Improved Image Analysis: Image segmentation helps in extracting meaningful information from images, enabling robots to better understand their surroundings and make informed decisions.
 - Enhanced Robotic Perception: By segmenting images into relevant regions, robots can recognize objects, obstacles, and other elements in their environment more effectively.
@@ -42,11 +45,11 @@ Overall, the ROS Node Image Segmentation Project aims to leverage the capabiliti
 * Compile the nodes
 * Download and install PYUV
 
-Therefore, type the commands in the files that are located in the "To do" folder. Note that the commands are for the user "est", so you should change this to your username.
+> Therefore, type the commands in the files that are located in the "To do" folder. Note that the commands are for the user "est", so you should change this to your username.
 
 ## Troubleshooting
 
-If connecting your camera with the node fails, type the following in the console (if manual 3 fails):
+> If connecting your camera with the node fails, type the following in the console (if manual 3 fails):
 
 ```bash
 $ mkdir -p ~/catkin-ws/src
@@ -57,13 +60,13 @@ $ catkin_make
 $ source ~/catkin-ws/devel/setup.bash
 ```
 
-Run `roscore` in a new terminal:
+> Run `roscore` in a new terminal:
 
 ```
 $ roscore
 ```
 
-And where you want to run your code, source your usb_cam code run:
+> And where you want to run your code, source your usb_cam code run:
 
 ```
 $ rosrun usb_cam usb_cam_node
@@ -71,7 +74,7 @@ $ rosrun usb_cam usb_cam_node
 
 ## Problem statement 
 
-Design, programming in the C programming language and testing a project in `CodeBlocks` called `image_segmentation_project` that performs:
+> Design, programming in the C programming language and testing a project in `CodeBlocks` called `image_segmentation_project` that performs:
 
 1. Read a color image in “.bmp” format from the hard disk.
 2. Calculate the intensity image of the color image obtained in point a) and store the resulting intensity image on the hard disk under the name "IntensityImage.bmp", in ".bmp" format.
@@ -118,14 +121,18 @@ alto: 455
 Salida: output/
 ```
 
-![](https://github.com/brown9804/Image_Segmentation_Project/blob/master/docs/img/output_img_seg_project_def.png)
+![](./_docs/img/output_img_seg_project_def.png)
 
 ## How to run
 
-To run the program is to go to the folder through your console or terminal to the folder in which the program is located.
-
-You must enter and type in the console or terminal:
+> To run the program is to go to the folder through your console or terminal to the folder in which the program is located. You must enter and type in the console or terminal:
 
 ```
 $ make
 ```
+
+
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
